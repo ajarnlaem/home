@@ -4687,8 +4687,77 @@ input, select, textarea {
 		}
 
 	}
+/* Custom */
+	.notable-students-container > div{
+		height: fit-content;
+	}
 
-	/* Font color */
+	.img-promotion {
+		padding: 0 !important;
+		background-image: url("../../images/aj-promotion.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img-pad-gym {
+		padding: 0 !important;
+		background-image: url("../../images/aj-pad-gym.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.video {
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		padding-top: 56.25%;
+	}
+
+	.responsive-iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;	
+	}
+
+	.notable-students {
+		display: flex;
+		gap: 20px;
+		row-gap: 30px;
+	}
+	
+	@media screen and (max-width: 980px) {
+		.notable-students {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly !important;
+			align-items: center;
+		}
+		.notable-students > div {
+			width: 100% !important;
+		}
+	}
+
+	.notable-students > div {
+		width: 50%;
+	}
+
+	.responsive-img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	@media screen and (max-width: 585px) {
+
+		.shrink-title {
+			font-size: 2rem !important;
+		}
+	}
+
+/* Font color */
 
 	.white {
 		color: white !important;
