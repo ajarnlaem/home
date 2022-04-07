@@ -4752,6 +4752,10 @@ input, select, textarea {
 		max-width: 100%;
 		height: auto;
 	}
+
+	#intro > p {
+		font-style: normal !important;
+	}
 	
 	@media screen and (max-width: 585px) {
 
