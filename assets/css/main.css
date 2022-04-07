@@ -4739,7 +4739,7 @@ input, select, textarea {
 		.notable-students > div {
 			width: 100% !important;
 		}
-		.notable-students-container > div > h2 {
+		.notable-students-container > div > h2, .notable-students > div > h2 {
 			text-align: center;
 		}
 	}
@@ -4755,6 +4755,11 @@ input, select, textarea {
 
 	#intro > p {
 		font-style: normal !important;
+	}
+
+	.img-anchor:hover {
+		opacity: 0.5;
+		transition: 0.5s;
 	}
 	
 	@media screen and (max-width: 585px) {
