@@ -4739,6 +4739,9 @@ input, select, textarea {
 		.notable-students > div {
 			width: 100% !important;
 		}
+		.notable-students-container > div > h2 {
+			text-align: center;
+		}
 	}
 
 	.notable-students > div {
