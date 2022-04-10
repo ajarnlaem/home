@@ -4811,6 +4811,10 @@ input, select, textarea {
 		}
 	}
 
+	.testimonial {
+		padding: 3rem !important;
+	}
+
 /* Font color */
 
 	.white {
