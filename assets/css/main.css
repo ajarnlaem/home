@@ -4805,14 +4805,58 @@ input, select, textarea {
 	}
 	
 	@media screen and (max-width: 585px) {
-
 		.shrink-title {
 			font-size: 2rem !important;
 		}
 	}
 
+	.testimonials {
+		gap: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+		padding: 40px !important;
+	}
+	
 	.testimonial {
-		padding: 3rem !important;
+		padding: 0.5rem !important;
+		font-size: 15px !important;
+		width: 30%;
+	}
+	
+	.testimonial > div {
+		background-color:#eeeeee;
+		padding: 1.5rem;
+		border-radius: 7px;
+		min-height: 420px;
+		max-height: 420px;
+	}
+
+	@media screen and (min-width: 769px) and (max-width: 1281px) {
+		.testimonial {
+			padding: 1rem !important;
+			width: 40%;
+			font-size: 12px !important;
+		}
+
+		.testimonial > div {
+			min-height: 300px;
+			max-height: 300px;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		.testimonial {
+			padding: 1rem !important;
+			width: 100%;
+			font-size: 13px !important;
+		}
+
+		.testimonial > div {
+			min-height: fit-content;
+			max-height: fit-content;
+		}
 	}
 
 /* Font color */
