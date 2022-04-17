@@ -4733,6 +4733,10 @@ input, select, textarea {
 		padding: 50px 0 30px 0;
 		justify-content: center;
 	}
+
+	.button-cta > a {
+		font-size: 16px;
+	}
 	
 	@media screen and (max-width: 980px) {
 		.notable-students {
