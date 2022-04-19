@@ -4863,6 +4863,13 @@ input, select, textarea {
 		}
 	}
 
+	ul:before{
+		content:attr(aria-label);
+		font-size:100%;
+		font-weight:bold;
+		margin-left:-15px;
+	}
+
 /* Font color */
 
 	.white {
