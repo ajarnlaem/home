@@ -4870,6 +4870,36 @@ input, select, textarea {
 		margin-left:-15px;
 	}
 
+	.map {
+		display: flex;
+		width: 100%;
+	}
+
+	.map > #locate_me {
+		width: 40%;
+		padding-right: 10px;
+	}
+
+	.map > #map {
+		width: 60%;
+		height: 400px;
+	}
+
+	@media screen and (max-width: 841px) {
+		.map {
+			display: block;
+		}
+		.map > #map {
+			width: 100%;
+		}
+		.map > #locate_me {
+			width: 100%;
+		}
+		.map > #locate_me > p, h1 {
+			text-align: center !important;
+		}
+	}
+
 /* Font color */
 
 	.white {
