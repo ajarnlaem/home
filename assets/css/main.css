@@ -3312,6 +3312,9 @@ input, select, textarea {
 		z-index: 1;
 		min-height: 100vh;
 	}
+		.intro-copy {
+			margin-bottom: 1rem;
+		}
 
 		#intro input, #intro select, #intro textarea {
 			color: #ffffff;
