@@ -4874,6 +4874,12 @@ input, select, textarea {
 		}
 	}
 
+	.testmonial__author {
+		height: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
+
 	ul:before{
 		content:attr(aria-label);
 		font-size:100%;
