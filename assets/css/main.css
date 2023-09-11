@@ -2237,6 +2237,11 @@ input, select, textarea {
 				background-color: #18bfef;
 			}
 
+      .youtube-button {
+        display: flex;
+        gap: 10px;
+      }
+
 /* Form */
 
 	form {
