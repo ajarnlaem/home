@@ -4898,13 +4898,15 @@ input, select, textarea {
 	}
 
 	.map > #locate_me {
-		width: 40%;
+		width: 50%;
 		padding-right: 10px;
 	}
 
 	.map > #map {
-		width: 60%;
-		height: 400px;
+		width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	}
 
 	@media screen and (max-width: 841px) {
